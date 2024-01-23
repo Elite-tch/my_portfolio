@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background:#000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    overflow:hidden;
+   color: #fff;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.navbar .logo a:link,
+.navbar .logo a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    padding: 6px;
+}
+
+.navbar {
+    margin-top: 60px;
+    width: 100%;
+    
+}
+
+.logo {
+    padding-top: 0px;
+    float: left;
+}
+
+.logo a:hover {
+    background-color: #0000 ;
+    color: white;
+}
+
+.color {
+    color: #ff8955;
+}
+
+.nav ul li a:link,
+.nav ul li a:visited {
+    padding: 10px 8px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-size:25px;
+   
+}
+
+.nav ul li {
+    float: right;
+}
+
+.sidebar {
+    color: #fff;
+    font-size: 15px;
+    display: none;
+    float: right;
+}
+
+.nav ul li a:hover {
+    background-color: #333;
+    padding: 6px;
+}
+
+.intro{
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+    margin: auto;
+
+.text{
+ margin-top: 30px;  
+    
+    
+}
+
+
+
+.text h6{
+   font-size:13px;
+    margin-bottom:5px;
+}
+
+.text h4{
+    font-size:19px;
+    margin-bottom:3px;
+    color: #ff8955;
+}
+
+.text h2{
+    font-size:26px;
+    font-weight:bold;
+}
+
+.text h2 b{
+    //margin-left:50%;
+    
+}
+
+.text .hire{
+   
+    margin-left: 10%;
+    margin-top: 30px;
+    
+}
+
+.text a:link,
+.text a:visited{
+padding: 8px 12px; 
+    background: #ff8955;
+   color: #fff; 
+   text-decoration:none; 
+    font-size:15px;
+    border-radius: 4px;
+    transition:all 0.5s;
+}
+
+.text a:hover{
+   background: transparent; 
+    border: 1px solid #ff8955;
+}
+
+#img{
+   
+  width: 100%;
+  margin-top: 20px; 
+  
+}
+.img{
+  margin-top: ;
+    
+}
